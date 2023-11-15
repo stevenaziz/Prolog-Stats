@@ -88,4 +88,3 @@ It is recommended that you use a Docker container for your assignment, this will
 
 ### GUI Versions
 There are GUI versions for the Prolog Interpreter, but they might not help you with the assignment goals. Use them at your own risk.
-

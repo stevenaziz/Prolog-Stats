@@ -1,23 +1,17 @@
 /*
     Test File for Prolog Assignment
-    
 */
 
 /* Data Definitions */
 
 sat([1714,1664,1760,1685,1693,1764,1764,1792,1850,1735]).
 gpa([2.4,2.52,2.54,2.74,2.83,3,3,3.01,3.01,3.02]).
-/*
-{{2.4,1714},{2.52,1664},{2.54,1760},{2.74,1685},{2.83,1693},{3,1764},{3,1764},{3.01,1792},{3.01,1850},{3.02,1735}}
-data1([10,11,12,14,9]).
-*/
 
 writeln(T) :- write(T), nl.
 
 main :-
         gpa(Gpa), /* Get GPA List */
         sat(Sat), /* Get SAT List */
-        data1(Data1), /* Get Data1 List */
         mean(Gpa, MeanG), /* Get Mean GPA */
         mean(Sat, MeanS), /* Get Mean SAT */
         stddev(Gpa, SDG), /* Get Standard Deviation of GPA */
