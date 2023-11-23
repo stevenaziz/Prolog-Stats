@@ -1,9 +1,6 @@
-/*
-    Test File for Prolog Assignment
-*/
+/* Test File for Prolog Assignment */
 
 /* Data Definitions */
-
 sat([1714,1664,1760,1685,1693,1764,1764,1792,1850,1735]).
 gpa([2.4,2.52,2.54,2.74,2.83,3,3,3.01,3.01,3.02]).
 
@@ -45,4 +42,4 @@ main :-
         /* [10,11,12,14,9] */
         writeln(ListTwo),   
         /* [1714,1664,1760,1685,1693,1764,1764,1792,1850,1735] */
-        writeln(ListThree). 
+        writeln(ListThree).
